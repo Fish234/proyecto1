@@ -2,6 +2,19 @@
   box-sizing: content-box;
 }
 
+body {
+  font-family: 'Caveat', cursive;
+  background-color: #09102a;
+}
+
+.hero-section {
+
+  background-image: url('../img/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 8.25rem 4.125rem;
+}
+
 font-family: 'Abril Fatface', cursive;
 font-family: 'Anton', sans-serif;
 font-family: 'Caveat', cursive;
@@ -36,4 +49,15 @@ font-family: 'Pacifico', cursive;
 
  nav {
    font-family: 'Abril Fatface', cursive;
+   background-color: #b6d4fa24 !important;
  }
+
+@media (min-width: 768px){
+  .hero-section {
+
+    background-image: url('../img/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 14.25rem 8.125rem;
+  }
+}
