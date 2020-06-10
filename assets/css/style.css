@@ -6,3 +6,34 @@ font-family: 'Abril Fatface', cursive;
 font-family: 'Anton', sans-serif;
 font-family: 'Caveat', cursive;
 font-family: 'Pacifico', cursive;
+
+ .img-fluid{
+   max-width: 100%;
+   height: auto;
+ }
+
+ header {
+   width: 100%;
+   height: auto;
+ }
+
+ a.navbar-brand {
+   width: 137px;
+   height: 46px;
+   font-size: 37px;
+   font-family: 'Abril Fatface', cursive;
+   padding: 0;
+   margin: 0;
+   color: #00000047  !important;
+ }
+
+ a.nav-link {
+  font-size: 18px;
+  color: #010c196e !important;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: normal;
+}
+
+ nav {
+   font-family: 'Abril Fatface', cursive;
+ }
