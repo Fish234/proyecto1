@@ -4,8 +4,9 @@
 
 body {
   font-family: 'Caveat', cursive;
-  background-color: #09102a;
+  background-color: #fff;
 }
+
 
 .hero-section {
 
@@ -16,14 +17,11 @@ body {
 }
 
 font-family: 'Abril Fatface', cursive;
-font-family: 'Anton', sans-serif;
-font-family: 'Caveat', cursive;
-font-family: 'Pacifico', cursive;
+font-family: 'Anton', sans-serif; titulo exp
+font-family: 'Caveat', cursive; texto en general
+font-family: 'Pacifico', cursive; para el fuuter
 
- .img-fluid{
-   max-width: 100%;
-   height: auto;
- }
+
 
  header {
    width: 100%;
@@ -52,6 +50,23 @@ font-family: 'Pacifico', cursive;
    background-color: #b6d4fa24 !important;
  }
 
+
+
+ .text-center{
+   text-align: right  !important;
+ }
+
+ h1{
+   font-size: 1.5rem;
+ }
+
+.container{
+
+  padding-right: 126px;
+  padding-left: 56px;
+}
+
+
 @media (min-width: 768px){
   .hero-section {
 
@@ -60,4 +75,23 @@ font-family: 'Pacifico', cursive;
     background-size: cover;
     padding: 14.25rem 8.125rem;
   }
+
+  .img-fluid{
+    width: 435px;
+    height: 465px;
+
+  }
+
+  span{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 35px;
+  }
+
+  p{
+    font-family:  'Caveat', cursive;
+    font-size: 23px;
+    padding-top: 3px;
+    text-align: justify;
+  }
+
 }
