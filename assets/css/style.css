@@ -67,6 +67,10 @@ font-family: 'Pacifico', cursive; para el fuuter
 }
 
 
+
+
+
+
 @media (min-width: 768px){
   .hero-section {
 
@@ -93,5 +97,7 @@ font-family: 'Pacifico', cursive; para el fuuter
     padding-top: 3px;
     text-align: justify;
   }
+
+
 
 }
