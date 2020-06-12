@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Caveat', cursive;
-  background-color: #fff;
+  background-color: #c8e2ff40;
 }
 
 
@@ -60,15 +60,102 @@ font-family: 'Pacifico', cursive; para el fuuter
    font-size: 1.5rem;
  }
 
+ h2{
+   font-family: 'Anton', sans-serif;
+   padding-bottom: 15px;
+ }
+
+ h3{
+   font-family: "abril fatface,cursive";
+   padding-top: 25px;
+   font-size: 2.75rem;
+ }
+
+ h5{
+   font-size: 24pt;
+   padding-bottom: 33px;
+ }
+
 .container{
 
-  padding-right: 126px;
-  padding-left: 56px;
+  padding-right: 36px;
+  padding-left: 75px;
 }
 
+.carousel{
+  width: 333px;
+  left: -39px;
+  padding-top: 63px;
+}
+
+.img-thumbnail{
+  padding: .25rem;
+  border-radius: 2.25rem;
+  background-color: #d0dcff;
+}
+
+#sobremi{
+  color:#a4a4ff;
+}
+
+#trabajos{
+  background-color: #6578ff;
+  color: white;
+  padding-top: 6px;
+}
+
+#experiencia p{
+ font-family: 'Anton', sans-serif;
+}
+
+#experiencia h2{
+  padding-bottom: 83px;
+}
+
+#experiencia i {
+  font-size: 107px;
+}
+#experiencia {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color:#c6c6ff;
+}
+
+#contacto{
+  color:#c6c6ff;
+  padding-bottom: 103px;
+
+}
+
+.typeform-widget{
+  width:275px;
+  height: 356px;
+}
+
+#footer{
+  padding-left: 36px;
+  padding-top: 36px;
+  padding-bottom: 43px;
+  background-color: #00dcff24;
 
 
+}
 
+#footer h1{
+  font-size: 29px;
+  font-family: 'Pacifico', cursive;
+  padding: 0;
+  margin: 0;
+  color: #00000047  !important;
+}
+
+#footer a{
+  padding-top: 12px;
+  padding-left: 30px;
+  padding-right: 32px;
+  padding-bottom: 22px;
+  color: #007bff85;
+}
 
 
 @media (min-width: 768px){
@@ -91,11 +178,103 @@ font-family: 'Pacifico', cursive; para el fuuter
     font-size: 35px;
   }
 
+
+
   p{
     font-family:  'Caveat', cursive;
     font-size: 23px;
     padding-top: 3px;
     text-align: justify;
+  }
+
+  .col-md-4{
+    max-width: 33% !important;
+  }
+
+
+
+  .img-thumbnail{
+    padding: .25rem;
+    border-radius: 2.25rem;
+    background-color: #d0dcff;
+  }
+
+  .carousel{
+    width: 960px;
+
+  }
+
+  .container{
+
+    padding-right: 126px;
+    padding-left: 56px;
+  }
+
+  #carousel{
+    padding-right: 126px;
+    padding-left: 127px;
+
+  }
+
+  #sobremi{
+    color:#a4a4ff;
+  }
+
+  #trabajos{
+    background-color: #6578ff;
+    color: white;
+    padding-top: 6px;
+  }
+
+  #experiencia p{
+   font-family: 'Anton', sans-serif;
+  }
+
+  #experiencia h2{
+    padding-bottom: 83px;
+  }
+
+  #experiencia i {
+    font-size: 107px;
+  }
+  #experiencia {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color:#c6c6ff;
+  }
+
+  #contacto{
+    color:#c6c6ff;
+    padding-bottom: 100px;
+
+  }
+
+   .typeform-widget{
+    width:100%;
+    height: 500px;
+  }
+
+  #footer{
+    padding-left: 138px;
+    padding-top: 36px;
+    padding-bottom: 43px;
+    background-color: #00dcff24;
+
+
+  }
+
+  #footer h1{
+    font-size: 46px;
+    font-family: 'Pacifico', cursive;
+    padding: 0;
+    margin: 0;
+    color: #00000047  !important;
+  }
+
+  #footer a{
+    padding-left: 30px;
+    padding-right: 32px;
+    color: #007bff85;
   }
 
 
